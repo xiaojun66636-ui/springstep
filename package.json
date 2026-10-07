@@ -1,0 +1,19 @@
+{
+  "name": "springstep",
+  "version": "0.1.0",
+  "description": "Analytic spring integrator for UI motion. Zero dependencies.",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "keywords": ["animation", "spring", "motion", "typescript"]
+}
